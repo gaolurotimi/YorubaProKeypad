@@ -1,0 +1,8 @@
+{
+  "app_name": "Yoruba Pro Keypad",
+  "default_mode": "English",
+  "dialect_toggle": "Yoruba_Central",
+  "marking_system": "Manual_DoReMi",
+  "underdot_behavior": "Prompt_On_Vowel",
+  "dictionaries": ["General", "Bible", "Pidgin"]
+}

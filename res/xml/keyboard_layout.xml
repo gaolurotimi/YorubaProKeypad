@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:keyHeight="60dip">
+
+    <Row>
+        <Key android:codes="97" android:keyLabel="a" />
+        <Key android:codes="101" android:keyLabel="e" android:popupCharacters="ẹ" />
+        <Key android:codes="105" android:keyLabel="i" />
+        <Key android:codes="111" android:keyLabel="o" android:popupCharacters="ọ" />
+        <Key android:codes="117" android:keyLabel="u" />
+        <Key android:codes="115" android:keyLabel="s" android:popupCharacters="ṣ" />
+    </Row>
+
+    <Row>
+        <Key android:codes="1001" android:keyLabel="DÒ \" android:keyWidth="33%p" />
+        <Key android:codes="1002" android:keyLabel="RE -" android:keyWidth="33%p" />
+        <Key android:codes="1003" android:keyLabel="MÍ /" android:keyWidth="33%p" />
+    </Row>
+
+    <Row>
+        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="70%p" android:isRepeatable="true"/>
+        <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="30%p" android:isRepeatable="true"/>
+    </Row>
+</Keyboard>

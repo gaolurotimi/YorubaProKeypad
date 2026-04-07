@@ -1,0 +1,22 @@
+{
+  "available_dictionaries": [
+    {
+      "id": "yo_core",
+      "name": "General Yoruba",
+      "size": "2.4MB",
+      "is_preinstalled": true
+    },
+    {
+      "id": "yo_bible",
+      "name": "Biblical Yoruba (Full)",
+      "size": "4.1MB",
+      "is_preinstalled": false
+    },
+    {
+      "id": "ng_pidgin",
+      "name": "Naija Pidgin & Slang",
+      "size": "1.2MB",
+      "is_preinstalled": true
+    }
+  ]
+}
