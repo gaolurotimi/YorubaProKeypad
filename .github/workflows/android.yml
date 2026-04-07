@@ -7,6 +7,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # This fixes the Node.js warning you saw
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -19,6 +22,7 @@ jobs:
           cache: gradle
 
       - name: Build APK
+        # We use the built-in gradle in the runner
         run: gradle assembleDebug
 
       - name: Upload APK
